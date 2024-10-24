@@ -157,17 +157,6 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
       title: "Year progress",
       techStack: ["Side Project", "TypeScript", "Next.js"],
       description: "Tracks current year progress and displays a countdown",
