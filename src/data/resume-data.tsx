@@ -118,12 +118,12 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Consultly",
+      title: "Premier League Overs and Unders",
       techStack: [
         "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
+        "Python",
+        "Flask",
+        "SQLite",
         "GraphQL",
         "WebRTC",
       ],
@@ -241,5 +241,14 @@ export const RESUME_DATA = {
         "Video streaming mobile application for Canal Digital subscribers",
       logo: CDGOLogo,
     },
+    {
+      title: "Quarterback Interception Model",
+      techStack: ['Python', "Machine Learning"],
+      description: "In this this project I use NFL's play by play data to calculate which Quarterbacks under-performed vs over-performed their expected amount of interceptions, using logistic regression and an XGBOOST model ",
+      link: {
+        label: "github.com",
+        href: "https://github.com/meharpalbasi/interception_modelling",
+      },
+    }
   ],
 } as const;
